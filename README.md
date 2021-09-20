@@ -36,7 +36,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 8. Normally, **all** the lines of test code should be executed.  When some part of test code is not executed it may indicate a problem with the tests.  Explain the problem in the unit test code. (write you answer below).
 
-   Answer: This is because `with self.assertRaises` stops whenever the expected exception is raised.
+   Answer: This is because `with self.assertRaises` stops whenever the expected exception is raised. Which means the tests after the first one will never be called if the first one raises an exception.
 
 
 
